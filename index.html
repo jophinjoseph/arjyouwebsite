@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARJYOU</title>
+    <link rel="icon" href="index" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: url(back.jpg);
+background-size: cover; 
+" >
+ 
+ 
+<header class="bg-info" style="position: fixed; width:100%;z-index: 1;">
+    <div class="row text-white">
+        <div class="col-md-6 col-9 p-4 pl-5">
+            <h2 class="pl-4">ARJYOU</h2>
+        </div>
+        <div class="col-md-6 col-3 my-auto">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#service-section">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience-section">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#contactme-section">Contact me</a>
+                      </li>
+                  </ul>
+                 
+                </div>
+              </nav>
+        </div>
+    </div>
+</header>
+<section  id="home-section" style="padding-top: 9em;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHUAdQMBEQACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQMEBQYHAv/EADsQAAEDAwICBggDBwUAAAAAAAECAwQABRESIQYxEyJBUWGBFBVUVXGTodEykbEjQlJTcsHhB0OCkvD/xAAbAQEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EADIRAAICAQIEBAQGAQUAAAAAAAABAgMRBCEFEhQxQVJTkRNRYeEVIjJxgbGhBkLR8PH/2gAMAwEAAhEDEQA/APVdUfNQoAoAoAoAoAoAoAoAoAoAoAoAoAoAoAoAoAoD2wy5IeS0whS3FnCUpG5rEpKK5pdj3XXKyShBZbJDkBTSVOPyoDTSD13FzWtKPA4VzqI9fRjuWUeD6xvHLj+V/wAkG537hu1rLLyZ0shpKjJiOILZUcZABHLxzUKXEbOZ4SwW8OA0uC55Pm8ex7g3Sw3RspiS3oj4wQJ5QlsjONlpJ33HOvdfE25fnjt9DTfwBKGapb/UelRHoqgHkjChlCkqCkrHeCNjVlVdC2PNB5KHUaa3Ty5LVhjNbCOFAFAFAFAFAFAFAFAe2GXJDoaZbW4tXJKBkmsSkorLeEe64SslywWWU3GfEMu0vvWuCtDbKWUtPJQlJLilBJWSrGeaiMA4wK5zUXStm3nY7vQ6SGnqilHfG/7mEcmPrlKUlYAUoYSU8h4VqRMPMqapKuuTqGwSeWKNgE3BDjJSR1z29g3rAOm8KqRM4RjMR3RJlR3FrWhKus00QMdXnpJCjnkKsOHWKEmpPGSh47p52QjOEc47/wDg9V0coFDAUAUAUAUAUAUAUBA4wvD1jtkaHEQgP3GOpx5xQyoo1kBI7h1QT2nIqj190p2OGdl/Z2XBtLCuhW4/NL+jnbK3ZMhKAFOrWMhCBz25+G2ag7IucZ7FvZuGJEpep/S2jt2ya1ytx2N0KG+5o2+CrWlsF4Our/iWs/pWl2zJC08EU914QQ02t23KIWBnSTsfOvcbfma56df7TPw5MiG+w+ypTEuM5rS4DhSFDxrd3Iv0OuXLolyRIjlPQyW0PoKRgdYAkDzyMeFdFo7PiUpnC8UoVOqlFdnv7kSpJXBQBQBQBQBQBQBQFH/qIgPWO1TQgCSy+5FVIAOzekKQlXmVkf0mqPiEFG3K8TsuCXOzTcsn+l4/gzHCLTaH1uKSVY06iBk47gPKq2ZfVNLLZ0GJJmdGhUWzuBlQ6up9AJHwrW4J+JnrK4S5H3CReiGUqjMpdWpOQjrZO/djOdxWIw+bJFmojCOSE9NlllLkuEhgLOEhS8KPwBpyx8GaKtWrX+XcwF4aaFzeWe1XPlvW+O0TVZvJm+4Okrm8FsuOr1GNOdYb25oKUK5+BJ/M1a8Mk+aUfA5r/UEI8sJ+O6LCrc5cKAKAKAKAKAKAKASTFFws10gqAV0kVTiAU567fXGPHCSPM1A4hDNXN8mXXA7eTU8udmjHcFsBbKll8Mha9JWSMIyBg/286oJnaQjlGvjx48GOQt6NNUCVI1JCyVHxz1R+leG34np6SMmnncjJudr9XQGo0xtyQ2tSCtWyXSfxgkdhP1014ecvYkSrhOHK2TJcSFJjHVDWhRIUNDbaCfic5rynh9zTDSKEspP3MPxXGDM6Kk6VlbYB075VlWRj8qkVyymzxcuV4OgzIbVrSza4zCY7MZtOWxuekUlJWSeZJPae4V0OgrUaVLxZxHGr5T1Tg+0exGqaU4UAUAUAUBTet7h7ikfMH2qd0tPrIsujo9Ze33D1vcPcUj5g+1Olp9ZDo6PWXt9w9b3D3FI+YPtTpafWQ6Oj1l7fcuuGLhKefmlVqWzKaiOORS8vKCsYyDjB/DqPlVVxitVaZyrmpfP9i14PpNKtVHNik/AzEJpFnnLioR0TTo1ISFlWkjY7nftFco25xyzsOVVzwiyut7jwIgjqaU846kkAnAA8e2vFcM7s92W42RQrXPMbpOkfUtR1YSgYKe475x8a24XyPGZ477l3beInJgMaUyGnEI1JIGApPLkeVap1pbo9wub2Yza0rm3p5xRVo6MNpwMY5k79nZWJZUUkZq3m2y+4ruEyPOistW16VohMhTqV4ydPbtzxiuw4PRCekUp2Yf1OM41p6bNZJuxR+hS+t7h7ikfMH2q06Wn1kVPR0esvb7h63uHuKR8wfanS0+sh0dHrL2+4et7h7ikfMH2p0tPrIdHR6y9vuHre4e4pHzB9qdLT6yHR0esvb7h62uHuKR8wfanS0+sh0dHrL2+5c1BK7IUGQoMkq2SURJzbzoUpsZSsJO+lQIP0NadRV8WpwXiStDqOn1EbX4ELiOyty2nZlrfYkuRAXihLa0uKbAGrGRjbOSM52rnJ6O2hZktju6+LabVS5K3+YzltcakyeldQFr0aQc8hnsqLPKWxY14b3LREOSp3UqQgRsfgzvXjn2NyTz9CsvTzSX2ykNgpSRtzxXqCfiarGsmi4UjNwbI3cpzK31zXlKZbS7pSlCBpJO3MqJ8gO+rDS6NanLbxgpeI8WloMKKy2SZchyVIW+6RrWd8DAHYAPADauhrrjXFRj2Rw9107rHZN7sZr2ashQZCgyFBkKDIUMBQBQBQE+wvdBeYayAUl0Nqz/Crqn6E1o1UOemS+hN4fZ8PVQl9f72OdXi2SrfMdTHWUKbWpBHZscGuVUlnDPo8ovuiKmRelsdGCkAfvGsfkyZXxGsD9qs0iTIDkpSldpzXmVmOx6hU29zobe3DkRoAAR5DqOfIKCSP71ccGllSRy3+qa2nXLG25Fq8OSCgChgKAKAKAj+mxPa4/wA1P3rZ8Kzyv2N3T3eR+zD02J7XH+an70+FZ5X7Dp7vI/Zh6bE9rj/NT96fCs8r9h093kfsw9Nie1x/mp+9PhWeV+w6e7yP2Yvp0VO6ZjAI5EOpGPrWPg2eMX7GVRcnnlfsyRxJHbcvk9CQCFulwb5/EAr+9cPauWbR9RofNXEr4kFjcL2UOw1pciRGJYR4iGkHCeZrxk9YKu98RXKwBtu2Sei9IUStJQlQIA7iD31N02dyDrFGWMojN8dIdYBmWZh+Xq67jTpYQU/0gHreI28DVnDV3QjhMo7eFaW2XM44/bYso994eebVrnS46wMpDkTIV4ZSo7+WKmLiO/6SqlwB42n/AI+49FuFkfQgKvUdh1ZxodacwD4qCSPOvX4jDP6WavwC7H6ln+SZcIbtvaS/J0CMs4RICgW192FcvKplFsb9obv5eJXX6DUUvEoP+NyB6bE9rY+YPvUj4VnlfsaOnu8j9mJ6bE9rj/NT96fCt8r9h093kfsyL6itfsTX1rd1uo87N34hqfOw9RWv2Jr6063Uedj8Q1PnYeorX7C19adbqPOzPX6nzsej8MQZBIZtqVAY1KAOE/E8h514nxG6G8p4NtWp11zxBtnnoeGrfKbjwYsS5XVxwNsgjVGZVndSzn9pjGcDY9tVGq43qZxcYSaR02h0d8ZZunl/LwJszp5NwfkOrK3FqypRGCfGuXm8nSQjyrBLRHKkBaRg9wrSzeh4oCGyt1YSlIJUT2DvpFMN+Jym/XQ3a6OyRlLI6jKe5A5eZ5+dWddfJHBU22c8skNCsYKedbTWHSK5nn2/4oDz02DhA636VgFvZb5KtjydIRIj5y5FkDW04CMEFJ7wSMjfevcJzreYPD+ge5sXrJw++1Hl26I2Y0loOIQtRKmjkhSFeIII8dq6XS8T1N0MylucnxKzUaW/kjN4e6GfUVq9ia+tSet1HnZXdfqfOyyqKQx+LDflaiyjKEDUtZISlA7yo7Ctdl0KlmTwSNPpbdRLlrjkizr7w/aNQW8bjJA2S2SlkHxP4leWKq7dfOW1awjo9LwOuP5rnl/Lw+5jeIOJbneQGJEgJg6spisDQ0P+I5+eTUJtyeX3LuEI1rlgsIq0TuhksORgW3GMFBJzk5z+teWsrBsTw8nT7Jd7bemEqYIblgftWFq6wPh3jxqDZW4+BPqsUh+4y2IDJdkPJaaGxUe+tag5dje5xissw/FPFAmsKg28kR1Y6Vw7Fwdw8P1/WVVTy7sh3X8y5Y9jJZ3+FSCIegeysg8KV2VgCN43UeZNASEHG9ZB0Dgp4TLJKig6noa+nAKv9tWArA8FBP8A2NTdDbyz5X4lLxvTfEqVqW8f6LKrk5AKAz3Ht+fZ9Gs7L2IjLKVvJa2SXVZVlXeQlSR4VQaqXNdJndcLq+HpIL57+5jHJBXtgbc+41oJ40FEHYnB7jQHpadSNvpQA3IWhScnBTyV2isAddddcHXc1AdmaGctjJoYEHOgFVQDLyu3xoBWz9KAkIyfhQFzwpelWO+RpunW0k6X2/5jatlJ/I/niieHlGJRUlh9jok+OmNIKW1hbSwHGljktChlJ/I10NFqtrUkcFrNM9PdKt/9R7tDaHbrDbdwUKfQCD2jNZvbVUmvkedJGMtRCMu2Ucv4nkrmX25vu7qcluqJzy65wK51dj6AUqVaTj8vhQHvPdy7KA9hW1ZAh3FYAJyNuygFJoBOVALnNANPpyg+FYBZWazTbpj0ZsaBzcWcJH+fhXmU1DubIVyn2NQ1wY023l6U4pzH7iQB9c1Heol4ElaaONzLXqI5b5i2W1qKQnUFHn/7at9c+ZZI1sOWWDe8NOvu8M21UlYK9C0oI/gC1BIPjz8sVecOz8N5+Zx/HuXqFjvjcmRro4XG8MRwSoYyjlkjxqI47FrHVJtbf5MJf7kqJcpaxGjOBclZ0rb5b8ufLaq9bIurJc0mzPvSfTnFudGlrf8ACjkPhWUeRG1EtAnsOK9GBztoBaAXsoBBuKAKARXI1gCJOoYNAdO4XaSzZ4iU/wAsHzwKh2PMmWNaxFFy6erWtmwxl3tPrjiO1wA90BluFsuaNWnxxkZ/OpND2Ieo7pmpDKIcdm3sahHiAttJUcnnkk+JJJ866jTUqqtJHzviGqnqL3KXhsl8j//Z" alt="" 
+                class="img-fluid rounded-circle display-1 image-responsive " 
+                >
+
+            </div>
+            <div class="col-md-6">
+                <h4>Youtuber <br>
+                    Alappuzha,Kerala,India
+                 <p>  "Vittukalayanam Mister"<br>-Arjyou</p>
+                 
+                    
+
+                </h4>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class=" p-5" id="service-section">
+    <div class="container">
+        <h1 class="text-center">Services</h1>
+        <div class="row  align-items-center">
+            <div class="col-md-4">
+              <a href="https://www.youtube.com/channel/UC9I8DWhqm5q7U_4fhfDwZIw">
+                <div class="card text-center" >
+                    <img src="images.jpg" class="card-img-top text-info  align-items-center" alt="..."style="height: 16em;">
+                    <div class="card-body">
+                      <h5 class="card-title">Multimedia</h5>
+                      <p class="card-text">Completed Multimedia degree</p>
+                      
+                    </div>
+                  </div>
+                </a>
+                  
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.youtube.com/channel/UC9I8DWhqm5q7U_4fhfDwZIw">
+                <div class="card text-center" >
+                    <img src="images.jpg" class="card-img-top text-info " alt="..."style="height: 16em;">
+                    <div class="card-body">
+                      <h5 class="card-title">Roasting</h5>
+                      <p class="card-text">Roasting some fool tiktok videos  </p>
+                      
+                    </div>
+                  </div>
+                </a>
+                  
+            </div>
+            <div class="col-md-4">
+              <a href="https://www.youtube.com/channel/UC9I8DWhqm5q7U_4fhfDwZIw">
+                <div class="card text-center" >
+                    <img src="images.jpg" class="card-img-top  text-info" alt="..."style="height: 16em;">
+                    <div class="card-body">
+                      <h5 class="card-title">Reacting</h5>
+                      <p class="card-text">Reacting to meaningless videos in tiktok</p>
+                    </div>
+                  </div>
+                </a>
+                  
+            </div>
+        </div>
+    </div>
+</section>
+<section class=" p-5" id="experience-section">
+  <div class="container">
+    <h1 class="text-center">Experiences</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://www.youtube.com/channel/UCPxPgICW00rtuEOEI4E3Adw">
+        <div class="card text-center" >
+            <img src="fukru" class="card-img-top  text-info" alt="..."style="height: 16em;">
+            <div class="card-body">
+              <h5 class="card-title">Fukru</h5>
+              <p class="card-text">roasted him and now he stopped his tiktok videos</p>
+              
+            </div>
+          </div>
+        
+        </a>  
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.youtube.com/watch?v=Dv1zNy0Nxx8">
+      <div class="card text-center" >
+          <img src="helen.jpg" class="card-img-top  text-info" alt="..."style="height: 16em;">
+          <div class="card-body">
+            <h5 class="card-title">Helen of sparta</h5>
+            <p class="card-text">Roasted and Reacted her videos and now she hated her on life </p>
+            
+          </div>
+        </div>
+      </a>
+        
+  </div>
+  <div class="col-md-4">
+    <a href="https://www.youtube.com/channel/UCFhcV25sz5f85vSGYRWmzgw">
+    <div class="card text-center" >
+        <img src="ambili.jpg" class="card-img-top  text-info" alt="..." style="height: 16em;">
+        <div class="card-body">
+          <h5 class="card-title">Ambili</h5>
+          <p class="card-text">Roasted him and now he became famous in online platform</p>
+          
+        </div>
+      </div>
+    
+      </a>
+</div>
+    </div>
+  </div>
+</section>
+<section class=""id="contactme-section">
+  <div class="container">
+    <h1 class="text-center">Contact me</h1>
+    <div class="row">
+      <div class="col-md-12">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Name</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Place</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Place">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Mobile</label>
+            <input type="tel" class="form-control" id="inputPassword4" placeholder="Mobile no">
+          </div>
+        </div>
+        <div class="form-group ">
+          <label for="inputAddress">Message</label>
+          <textarea class="form-control"  cols="30" rows="10" placeholder="Type your message here..."></textarea>
+        </div>
+      
+        
+        
+       
+        
+       <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+      </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center text-white">
+
+        <p>Copyrights</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+        
+          
+   
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
